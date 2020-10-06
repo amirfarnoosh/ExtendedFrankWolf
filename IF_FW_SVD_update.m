@@ -1,6 +1,6 @@
 function [ Z, Z_rank, err ] = IF_FW_SVD_update( Z, S, delta, gamma1, gamma2,  max_number_iter )
 
-% In-Face Frank wolfe algorithm for nuclear norm minimization with SVD updates
+% In-Face Frank wolfe algorithm for nuclear norm minimization with SVD updates 
 % Args:
 %   Z(matrix[mxn]) : Observation matrix
 %   S(column vector) index of known values
